@@ -156,7 +156,7 @@ def fuck():
     print(' [+] OK Ids saved in ALJAJ/OK.txt')
     print(' [+] CP Ids saved in ALHAJ/CP.txt')
     print('==================================================')
-def alhaj2(uid,pwx,tl):
+def mumit2(uid,pwx,tl):
     global loop
     global cps
     global oks
